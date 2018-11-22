@@ -32,6 +32,7 @@ export const updateCourseMarket =(id,courseMarket) => {
 
 
 
+
 //查询课程分类
 export const category_findlist= () => {
   return http.requestQuickGet(apiUrl+'/category/list')
